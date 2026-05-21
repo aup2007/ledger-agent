@@ -1,0 +1,3 @@
+# Force Node 22 on Railway. Vite 8 requires Node >= 20.19.
+[phases.setup]
+nixPkgs = ["nodejs_22", "npm-10_x"]
