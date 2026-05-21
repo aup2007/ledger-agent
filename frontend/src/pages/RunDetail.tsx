@@ -87,7 +87,7 @@ function DocumentViewer({ runId }: { runId: number }) {
 }
 
 function VerdictBanner({ run }: { run: Run }) {
-  let cls = run.status, dc = '·', title = '', meta = ''
+  let cls: string = run.status, dc = '·', title = '', meta = ''
   if (run.status === 'completed' && run.verdict === 'IGO') {
     cls = 'IGO'; dc = 'I'
     title = 'In Good Order'
