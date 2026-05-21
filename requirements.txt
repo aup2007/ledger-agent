@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+python-multipart
+python-dotenv
+pydantic
+psycopg2-binary
+psycopg[binary,pool]
+langgraph
+langgraph-checkpoint-postgres
+langchain-groq
+pymupdf
+rich

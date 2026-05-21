@@ -1,0 +1,11 @@
+# Frontend (Vite + React) service config.
+# Root directory in Railway settings must be set to `frontend`.
+
+[build]
+builder = "nixpacks"
+buildCommand = "npm install && npm run build"
+
+[deploy]
+startCommand = "npx serve -s dist -l $PORT"
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 3

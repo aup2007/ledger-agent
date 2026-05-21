@@ -1,0 +1,12 @@
+# Backend (FastAPI) service config.
+# Railway auto-detects Python from requirements.txt via Nixpacks.
+
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "uvicorn api.main:app --host 0.0.0.0 --port $PORT"
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 3
+healthcheckPath = "/runs?status=queued"
+healthcheckTimeout = 30

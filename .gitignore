@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Uploaded PDFs (kept on Railway volume / S3 in prod)
+storage/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Generated artifacts
+workflow.png
+
+# Project notes (not for the repo)
+CLAUDE.md
+ProjectA.md
+ComplexDocument.md
+AQUA_BUILD_DECISIONS.md
