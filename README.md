@@ -33,7 +33,8 @@ The part I cared about most: it never asks an LLM "is this correct?" and trusts 
 
 A short walkthrough: uploading a document, watching the agent extract and validate it, and the reviewer console showing every step it took.
 
-<video src="https://github.com/aup2007/ledger-agent/raw/main/docs/Aqua_AtharvUdayParab_Demo.mp4" controls></video>
+The demo video (`Aqua_AtharvUdayParab_Demo.mp4`) is in the `DEMO VIDEO` directory.
+
 
 ## How it works
 
