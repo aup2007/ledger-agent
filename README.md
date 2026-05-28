@@ -28,11 +28,11 @@ The part I cared about most: it never asks an LLM "is this correct?" and trusts 
     GitHub uploads it and gives you a https://github.com/user-attachments/assets/... URL.
     Paste that URL on its own line and it renders a real video player.
 -->
-<video controls src="docs/Aqua_AtharvUdayParab_Demo.mp4" title="Title"></video>
+
 
 
 A short walkthrough: uploading a document, watching the agent extract and validate it, and the reviewer console showing every step it took.
-
+<video controls src="docs/Aqua_AtharvUdayParab_Demo.mp4" title="Title"></video>
 ## How it works
 
 The path a document takes through the system:
